@@ -1,0 +1,60 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+.virtualenv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy type checker
+.mypy_cache/
+
+# Django specific
+*.sqlite3
+db.sqlite3
+
+# Flask specific
+instance/
+*.pid
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
